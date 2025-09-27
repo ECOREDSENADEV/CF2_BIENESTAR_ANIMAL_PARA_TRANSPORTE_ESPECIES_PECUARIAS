@@ -662,7 +662,7 @@
         TabsB.color-acento-contenido.mb-5
           .py-4.py-md-5(titulo="Diseño y material" :icono="require('@/assets/componentes/2.svg')").p-5
             .row.align-items-center
-              .col-lg-6
+              .col-lg-6.mb-3.mb-lg-0
                 h4 Diseño y material
                 p Jaulas específicas para aves, fabricadas en materiales resistentes, lavables y con buena ventilación.
               .col-lg-6
@@ -670,7 +670,7 @@
                   img(src='@/assets/curso/tema1/48.png', alt='')
           .py-4.py-md-5(titulo="Piso antideslizante" :icono="require('@/assets/componentes/2.svg')").p-5
             .row.align-items-center
-              .col-lg-6
+              .col-lg-6.mb-3.mb-lg-0
                 h4 Piso antideslizante
                 p Evita fracturas o lesiones en patas y alas.
               .col-lg-6
@@ -678,7 +678,7 @@
                   img(src='@/assets/curso/tema1/49.png', alt='')
           .py-4.py-md-5(titulo="Entrada y salida rápida" :icono="require('@/assets/componentes/2.svg')").p-5
             .row.align-items-center
-              .col-lg-6
+              .col-lg-6.mb-3.mb-lg-0
                 h4 Entrada y salida rápida
                 p El diseño debe permitir movimientos ágiles para reducir el tiempo de manipulación y el riesgo de lesiones.
               .col-lg-6
@@ -686,7 +686,7 @@
                   img(src='@/assets/curso/tema1/50.png', alt='')
           .py-4.py-md-5(titulo="Prohibición de guacales improvisados" :icono="require('@/assets/componentes/2.svg')").p-5
             .row.align-items-center
-              .col-lg-6
+              .col-lg-6.mb-3.mb-lg-0
                 h4 Prohibición de guacales improvisados
                 p No deben usarse elementos en mal estado o no diseñados para aves, ya que comprometen el bienestar y la bioseguridad.
               .col-lg-6
@@ -694,7 +694,7 @@
                   img(src='@/assets/curso/tema1/51.png', alt='')
           .py-4.py-md-5(titulo="Postura natural y circulación de aire" :icono="require('@/assets/componentes/2.svg')").p-5
             .row.align-items-center
-              .col-lg-6
+              .col-lg-6.mb-3.mb-lg-0
                 h4 Postura natural y circulación de aire
                 p Según la Resolución ICA 136 de 2020, las aves deben poder adoptar una posición natural de descanso, sin compresión ni obstrucción del flujo de aire.
               .col-lg-6
