@@ -9,7 +9,7 @@
     
     .bg-color-2.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema6/1.png', alt='')
         .col-lg
@@ -49,10 +49,10 @@
       
     
     .bg-full-width.bg-fondo-4
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .bg-color-3.tarjeta.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema6/3.png', alt='')
             .col-lg
@@ -73,7 +73,7 @@
             .bg-color-1.tarjeta.p-4(data-aos="fade-left").mb-5
               .bg-color-white.tarjeta.p-5
                 .row.align-items-center
-                  .col-lg-auto.order-2
+                  .col-lg-auto.mb-3.mb-lg-0.order-2
                     img(src="@/assets/curso/tema6/5.svg", style="max-width: 240px").mx-auto
                   .col-lg.order-1.mb-3.mb-lg-0
                     p Ejemplos de decisiones correctivas en ruta:
@@ -148,14 +148,14 @@
               p Evaluar mortalidad (%), animales lesionados (%), tiempo promedio de viaje y número de incidentes por trayecto.
     
     .bg-full-width.bg-color-4
-      .p-x4.px-md-5 
+      .px-4.px-md-5 
         p El análisis de casos, la toma de decisiones en tiempo real y la mejora continua forman un ciclo de gestión estratégica para el transporte de animales vivos. Aplicar esta metodología permite:
 
         .row.justify-content-center.align-items-stretch.mb-3
           .col-lg-4.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema6/11.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-3.px-3.d-inline.bg-color-6 01
@@ -165,7 +165,7 @@
           .col-lg-4.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema6/12.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-3.px-3.d-inline.bg-color-6 02
@@ -175,7 +175,7 @@
           .col-lg-4.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema6/13.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-3.px-3.d-inline.bg-color-6 03
@@ -186,7 +186,7 @@
           .col-lg-4.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema6/14.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-3.px-3.d-inline.bg-color-6 04
@@ -196,7 +196,7 @@
           .col-lg-4.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema6/15.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-3.px-3.d-inline.bg-color-6 05

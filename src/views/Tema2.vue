@@ -8,7 +8,7 @@
       h1 Tipos de transporte de animales vivos
     
     .bg-full-width.bg-color-4
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.bg-color-7.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/1.png')})`}"
@@ -24,7 +24,7 @@
         
         .bg-color-1.tarjeta.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/2.png', alt='')
             .col-lg
@@ -93,8 +93,8 @@
     p.mb-5 El transporte fluvial es una alternativa común en regiones con difícil acceso terrestre, como la Amazonía, la Orinoquía y zonas ribereñas del Magdalena. Se utiliza para movilizar animales en barcazas o embarcaciones adaptadas, cumpliendo con criterios de seguridad, ventilación y protección climática.
 
     .bg-full-width.bg-fondo-1
-      .p-x4.px-md-5
-        h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Requisitos técnicos generales
+      .px-4.px-md-5
+        h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Requisitos técnicos generales
 
         .row.mb-5.mt-5
           .col-lg-4.mb-3.mb-lg-0
@@ -106,7 +106,7 @@
             .bg-color-13.tarjeta.p-4(data-aos="fade-left")
               .bg-color-white.tarjeta.p-5
                 .row.align-items-center
-                  .col-lg-auto.order-2
+                  .col-lg-auto.mb-3.mb-lg-0.order-2
                     img(src="@/assets/curso/tema2/10.svg", style="max-width: 240px").mx-auto
                   .col-lg.order-1.mb-3.mb-lg-0
                     ul.lista-ul--color.mb-0
@@ -126,7 +126,7 @@
                         i.fa-solid.fa-circle-check.bg-color-5
                         p.mb-0 Rampas con pendiente menor a 20°, sin huecos.
 
-        h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Consideraciones por especie
+        h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Consideraciones por especie
 
         p.mb-5.mt-5 Cada especie transportada por vía fluvial presenta particularidades que deben atenderse en el diseño del espacio y la operación logística.
 
@@ -169,17 +169,17 @@
     separador
     
     .bg-full-width.bg-color-4-2
-      .p-x4.px-md-5
+      .px-4.px-md-5
         #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 2.3 Transporte aéreo
         
         p.mb-5 El transporte aéreo se reserva para animales de alto valor genético, reproductores, caballos deportivos y aves ornamentales. También es fundamental en procesos de exportación, bajo regulaciones internacionales estrictas.
 
-        h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Normativa aplicable
+        h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Normativa aplicable
 
         .bg-color-1.tarjeta.mb-5.mt-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/15.png', alt='')
             .col-lg
@@ -187,7 +187,7 @@
                 p.mb-0(data-aos="fade-up") La movilización aérea de animales debe cumplir con las directrices internacionales y nacionales vigentes.
                 p.mb-0 Está regulado por el Live Animals Regulations (LAR) de la International Air Transport Association (IATA) y en Colombia por el ICA y la Aeronáutica Civil.
         
-        h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Requisitos técnicos generales
+        h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Requisitos técnicos generales
       
         p.mb-5.mt-5 Los contenedores, condiciones ambientales y manejo deben asegurar comodidad, higiene y protección para los animales.
 
@@ -195,7 +195,7 @@
           .col-lg-10
             .bg-color-3.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema2/16.png', alt='')
                 .col-lg.order-lg-1
@@ -217,7 +217,7 @@
                         i.fa-solid.fa-circle-check.bg-color-5
                         p.mb-0 Etiquetado obligatorio con “<em>Live Animals</em>”, flechas de orientación y datos del remitente.
         
-        h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Consideraciones por especie
+        h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Consideraciones por especie
       
         p.mb-5.mt-5 Cada grupo animal requiere condiciones particulares durante el transporte aéreo para evitar estrés y garantizar su integridad.
     

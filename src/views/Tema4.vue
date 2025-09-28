@@ -8,7 +8,7 @@
       h1 Evaluación, monitoreo y mitigación de riesgos
     
     .bg-full-width.bg-fondo-4
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row
           .col-lg-4.order-lg-2.mb-3.mb-lg-0
             figure
@@ -18,7 +18,7 @@
 
             .bg-color-8.tarjeta.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/2.svg', alt='')
                 .col-lg
@@ -36,7 +36,7 @@
           .col-lg-10
             .bg-color-2.tarjeta.mb-3(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/3.png', alt='')
                 .col-lg
@@ -57,7 +57,7 @@
                         p.mb-0 Heridas abiertas, sangrado visible o fracturas.
             .bg-color-1.tarjeta.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema4/4.png', alt='')
                 .col-lg.order-lg-1
@@ -79,7 +79,7 @@
     .bg-color-3.tarjeta.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema4/5.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 <b>Nota</b>. Estos signos deben observarse antes del embarque, durante paradas intermedias y al finalizar el viaje. Animales con síntomas severos no deben continuar el recorrido.
@@ -90,7 +90,7 @@
       h2 4.2 Indicadores conductuales
     
     .bg-full-width.bg-fondo-11
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.mb-5.mt-5
           .col-lg-4.mb-3.mb-lg-0
             figure
@@ -100,7 +100,7 @@
             .bg-color-13.tarjeta.p-4(data-aos="fade-left").mb-5
               .bg-color-white.tarjeta.p-5
                 .row.align-items-center
-                  .col-lg-auto.order-2
+                  .col-lg-auto.mb-3.mb-lg-0.order-2
                     img(src="@/assets/curso/tema4/7.svg", style="max-width: 240px").mx-auto
                   .col-lg.order-1.mb-3.mb-lg-0
                     p Los principales indicadores conductuales:
@@ -135,7 +135,7 @@
           .col-lg-10
             .bg-color-1.tarjeta.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema4/8.png', alt='')
                 .col-lg.order-lg-1
@@ -173,7 +173,7 @@
     .bg-color-3.tarjeta.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema4/9.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 <b>Importancia</b>. Estas herramientas aseguran trazabilidad, permiten auditoría sanitaria y previenen sanciones por incumplimiento normativo.
@@ -252,7 +252,7 @@
     p.mb-5 Cada modalidad de transporte y cada especie requieren acciones específicas. A continuación, se resumen los principales tipos de transporte y sus consideraciones:
 
     .bg-full-width.bg-color-4-2
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.mb-5.justify-content-center
           .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
             .tarjeta--boton.bg-color-9.p-4.h-100
@@ -303,7 +303,7 @@
           .col-lg-10
             .bg-color-1.tarjeta.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema4/15.png', alt='')
                 .col-lg
@@ -339,7 +339,7 @@
             .bg-color-13.tarjeta.p-4(data-aos="fade-left").mb-5
               .bg-color-white.tarjeta.p-5
                 .row.align-items-center
-                  .col-lg-auto.order-2
+                  .col-lg-auto.mb-3.mb-lg-0.order-2
                     img(src="@/assets/curso/tema4/17.svg", style="max-width: 240px").mx-auto
                   .col-lg.order-1.mb-3.mb-lg-0
                     ul.lista-ul--color.mb-0

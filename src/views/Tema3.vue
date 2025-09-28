@@ -8,7 +8,7 @@
       h1 Manejo de la especie en el transporte
     
     .bg-full-width.bg-color-4-2
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.mb-5
           .col-lg-4.order-lg-2.mb-3.mb-lg-0
             figure
@@ -18,7 +18,7 @@
         
             .bg-color-8.tarjeta.p-4(data-aos="fade-left")
               .row.align-items-start
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema3/2.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p En Colombia, este manejo está regulado principalmente por la Resolución ICA 136 de 2020, la Ley 1774 de 2016, que reconoce a los animales como seres sintientes, y los lineamientos internacionales de la WOAH (2023).
@@ -32,7 +32,7 @@
             .bg-color-1.tarjeta.p-4(data-aos="fade-left").mb-3
               .bg-color-white.tarjeta.p-5
                 .row.align-items-center
-                  .col-lg-auto.order-2
+                  .col-lg-auto.mb-3.mb-lg-0.order-2
                     img(src="@/assets/curso/tema3/4.svg", style="max-width: 240px").mx-auto
                   .col-lg.order-1.mb-3.mb-lg-0
                     p Esta práctica implica cumplir normas claras sobre:
@@ -111,7 +111,7 @@
         .bg-color-2.tarjeta.p-4(data-aos="fade-left").mb-5
           .bg-color-white.tarjeta.p-5
             .row.align-items-center
-              .col-lg-auto.order-2
+              .col-lg-auto.mb-3.mb-lg-0.order-2
                 img(src="@/assets/curso/tema3/11.svg", style="max-width: 240px").mx-auto
               .col-lg.order-1.mb-3.mb-lg-0
                 p El éxito en la movilización animal requiere:

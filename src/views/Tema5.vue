@@ -76,7 +76,7 @@
     p.mb-5 Durante la movilización, se deben realizar controles sistemáticos que permitan detectar y atender problemas de forma inmediata. Los componentes esenciales del monitoreo en tránsito son:
 
     .bg-full-width.bg-color-4
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.align-items-start.mb-5
           .col-lg-4.order-lg-2.mb-3.mb-lg-0
             figure
@@ -189,7 +189,7 @@
       h2 5.5 Acciones correctivas
     
     .bg-full-width.bg-color-11
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.mb-5.mt-5
           .col-lg-4.mb-3.mb-lg-0
             figure
@@ -199,7 +199,7 @@
             .bg-color-7.tarjeta.p-4(data-aos="fade-left").mb-5
               .bg-color-white.tarjeta.p-5
                 .row.align-items-center
-                  .col-lg-auto.order-2
+                  .col-lg-auto.mb-3.mb-lg-0.order-2
                     img(src="@/assets/curso/tema5/20.svg", style="max-width: 240px").mx-auto
                   .col-lg.order-1.mb-3.mb-lg-0
                     p Los principales tipos de acción correctiva son:
@@ -231,7 +231,7 @@
           .col-lg-10
             .bg-color-8.tarjeta.mb-3(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema5/21.png', alt='')
                 .col-lg.order-lg-1
@@ -260,7 +260,7 @@
             
             .bg-color-1.tarjeta.mb-3(data-aos="fade-left")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema5/22.png', alt='')
                 .col-lg

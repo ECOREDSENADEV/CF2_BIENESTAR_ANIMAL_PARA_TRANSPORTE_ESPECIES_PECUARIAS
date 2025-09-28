@@ -8,7 +8,7 @@
       h1 Transporte según especie pecuaria
     
     .bg-full-width.bg-color-4
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.mb-5
           .col-lg-4.order-lg-2.mb-3.mb-lg-0
             figure
@@ -18,7 +18,7 @@
         
             .bg-color-1.mb-5.tarjeta(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema1/2.svg', alt='')
                 .col-lg
@@ -30,7 +30,7 @@
           .col-lg-10
             .bg-color-3.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema1/3.png', alt='')
                 .col-lg
@@ -115,11 +115,11 @@
       .py-4.py-md-5(titulo="Densidad recomendada (según Resolución ICA 136 de 2020)" :icono="require('@/assets/componentes/2.svg')").p-5
         h4 Densidad recomendada (según Resolución ICA 136 de 2020)
         p La densidad de carga debe adaptarse al peso de los animales para evitar lesiones, fatiga o estrés térmico. A continuación se presentan los valores técnicos recomendados:
-        .row.justify-content-center.align-items-stretch.mb-4
+        .row.justify-content-center.align-items-stretch.mb-3
           .col-lg-6.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/7.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-2 Terneros de levante
@@ -128,25 +128,25 @@
           .col-lg-6.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/8.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-2 Bovinos de engorde
                   p.mb-0 Entre 300 y 500 kg.
-        .row.justify-content-center.align-items-stretch.mb-4
-          .col-lg-6
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/9.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-2 Bovinos lecheros adultos
                   p.mb-0 Generalmente más de 500 kg.
 
-          .col-lg-6
+          .col-lg-6.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/10.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-2 Reproductores
@@ -192,14 +192,14 @@
     
     .bg-color-1.tarjeta.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/11.png', alt='')
         .col-lg
           .p-4
             p.mb-0(data-aos="fade-up") El transporte de bovinos requiere un conjunto de medidas técnicas y de manejo que garanticen el bienestar animal, la bioseguridad y la calidad del producto. A continuación se describen los principales aspectos que deben ser tenidos en cuenta durante este proceso.
     
-    h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Vehículo e instalaciones: diseño y equipamiento
+    h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Vehículo e instalaciones: diseño y equipamiento
 
     p.mb-5.mt-5 El diseño estructural del vehículo y sus condiciones internas influyen directamente en la seguridad, el confort y el estrés de los animales durante el traslado.
 
@@ -257,17 +257,17 @@
               h5 Limpieza
               p Implementar un plan de bioseguridad que contemple lavado, desinfección y secado del vehículo entre viajes.
 
-    h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Condiciones de viaje: planificación y operación
+    h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Condiciones de viaje: planificación y operación
 
     p.mb-5.mt-5 Una adecuada planificación del transporte permite prevenir riesgos, reducir el estrés y optimizar el tiempo y las condiciones del viaje.
 
     .bg-full-width.bg-fondo-1
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.justify-content-center
           .col-lg-10
             .bg-color-8.mb-3(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema1/19.png', alt='')
                 .col-lg
@@ -287,7 +287,7 @@
                         p.mb-0 Considerar la duración del viaje: aunque la WOAH (Organización Mundial de Sanidad Animal) no impone un límite fijo, en Colombia se recomienda seguir la Resolución ICA 136 de 2020.
             .bg-color-1.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
                   figure
                     img(src='@/assets/curso/tema1/20.png', alt='')
                 .col-lg.order-lg-1
@@ -306,7 +306,7 @@
                         i.fa-solid.fa-circle-check.bg-color-5
                         p.mb-0 Mantener registros durante todo el viaje: estado de los animales, condiciones ambientales, incidencias.
 
-        h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Registro y permisos (Colombia)
+        h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Registro y permisos (Colombia)
 
         p.mb-5.mt-5 El cumplimiento documental es un requisito legal obligatorio que permite garantizar la trazabilidad y legalidad del transporte de animales.
 
@@ -338,7 +338,7 @@
               h4.text-center Capacitación del personal
               p.text-center Conductores y auxiliares deben estar formados en bienestar animal, manejo y contingencias.
     
-    h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Factores de estrés y regulación térmica
+    h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Factores de estrés y regulación térmica
 
     p.mb-5.mt-5 La temperatura, la humedad, la densidad y el manejo influyen significativamente en la fisiología y la salud del animal durante el transporte.
 
@@ -361,10 +361,10 @@
           .div(titulo="Respuesta fisiológica")
             p Aumento de cortisol, inmunosupresión, pérdida de peso (encogimiento) de entre 3 y 7 %. Optimizar condiciones de transporte y minimizar duración del viaje.
     
-    h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Densidad y espacio: recordatorio operativo
+    h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Densidad y espacio: recordatorio operativo
 
     .bg-full-width-2.bg-fondo-2
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.mb-5.mt-5
           .col-lg-4.mb-3.mb-lg-0
             figure
@@ -375,7 +375,7 @@
             .bg-color-1.tarjeta.p-4(data-aos="fade-left")
               .bg-color-white.tarjeta.p-5
                 .row.align-items-center
-                  .col-lg-auto.order-2
+                  .col-lg-auto.mb-3.mb-lg-0.order-2
                     img(src="@/assets/curso/tema1/26.png", style="max-width: 240px").mx-auto
                   .col-lg.order-1.mb-3.mb-lg-0
                     ul.lista-ul--color.mb-0
@@ -389,7 +389,7 @@
                         i.fa-solid.fa-circle-check.bg-color-5
                         p.mb-0 Ajustar densidad en climas cálidos o ante animales grandes, astados o gestantes.
 
-        h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Listas de chequeo mínimas
+        h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Listas de chequeo mínimas
 
         p.mb-5.mt-5 Aplicar listas de verificación operativas en cada etapa del transporte permite detectar y corregir errores que afectan el bienestar animal.
 
@@ -435,7 +435,7 @@
     
         .bg-color-3.tarjeta.p-4(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/31.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Durante la carga y descarga, es esencial reducir al mínimo los factores de estrés. El diseño o adecuación de las instalaciones debe favorecer un flujo continuo y seguro, evitando obstáculos o estímulos que provoquen retrocesos, detenciones o resistencia. Estas medidas mejoran el bienestar animal y disminuyen los riesgos laborales y las pérdidas económicas por mortalidad o daños a la canal.
@@ -485,52 +485,52 @@
         p.mb-5 Identificar y controlar los factores de riesgo permite evitar lesiones, estrés fisiológico y pérdidas productivas.
     
     TabsC.color-acento-contenido(data-aos="zoom-in").mb-5
-      .py-3.py-md-4(titulo="Estrés por calor")
+      .py-3.py-md-4.px-4(titulo="Estrés por calor")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Estrés por calor
             p Jadeo, salivación, pérdida de peso, riesgo de colapso o muerte. Mantener el ambiente por debajo de 28 °C.
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/38.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Estrés por frío")
+      .py-3.py-md-4.px-4(titulo="Estrés por frío")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Estrés por frío
             p Temblores, inmunosupresión, mayor gasto energético. Mantener el ambiente por encima de 10 °C.
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/39.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Ruido")
+      .py-3.py-md-4.px-4(titulo="Ruido")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Ruido
             p Aumento del ritmo cardíaco y del cortisol, agitación, accidentes. Evitar gritos, golpes metálicos o silbidos fuertes.
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/40.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Densidad de carga")
+      .py-3.py-md-4.px-4(titulo="Densidad de carga")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Densidad de carga
             p Asfixias, aplastamientos, estrés y lesiones. Ajustar densidad según peso vivo.
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/41.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Mezcla de lotes")
+      .py-3.py-md-4.px-4(titulo="Mezcla de lotes")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Mezcla de lotes
             p Peleas, heridas, competencia por espacio. No mezclar animales de diferente edad, tamaño o procedencia.
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/42.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Manejo brusco")
+      .py-3.py-md-4.px-4(titulo="Manejo brusco")
         .row.justify-content-center.align-items-center
-          .col-md-6.mb-4.mb-md-0.order-2
+          .col-lg-6.mb-4.mb-md-0.order-2
             h4 Manejo brusco
             p Sufrimiento, fracturas, hematomas, deterioro de la canal. Prohibido el uso de picanas eléctricas o golpes.
-          .col-md-5.order-1.mb-3.mb-lg-0
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/43.png', alt='Texto que describa la imagen')
     
@@ -571,7 +571,7 @@
             td 15 - 20 animales
     
     .bg-full-width.bg-color-4
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
@@ -587,7 +587,7 @@
             .bg-color-10.mb-5.tarjeta
               .p-3.p-md-3
                 .row.justify-content-center.align-items-center
-                  .col-lg-5
+                  .col-md-6.col-lg-5.mb-3.mb-lg-0
                     figure
                       img(src="@/assets/curso/tema1/45.svg", data-aos="zoom-in")
                   .col-lg-7
@@ -642,7 +642,7 @@
     
     .bg-color-1.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/47.png', alt='')
         .col-lg
@@ -658,7 +658,7 @@
     p.mb-5 El tipo de jaula utilizada influye directamente en la ventilación, la comodidad y la seguridad física de las aves durante el viaje.
 
     .bg-full-width.bg-fondo-4
-      .p-x4.px-md-5
+      .px-4.px-md-5
         TabsB.color-acento-contenido.mb-5
           .py-4.py-md-5(titulo="Diseño y material" :icono="require('@/assets/componentes/2.svg')").p-5
             .row.align-items-center
@@ -785,7 +785,7 @@
     .bg-full-width.bg-color-2.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/57.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 En la siguiente figura se presenta de forma comparativa la densidad recomendada de aves por metro cuadrado durante el transporte, según el tipo y peso del animal. 
@@ -795,7 +795,7 @@
       span Densidad recomendada de aves en transporte
 
     .bg-full-width.bg-color-4-2
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.justify-content-center
           .col-lg-8
             figure
@@ -811,7 +811,7 @@
             .bg-color-6.tarjeta.p-4.mb-3(data-aos="fade-left")
               .bg-color-white.tarjeta.p-5
                 .row.align-items-center
-                  .col-lg-auto.order-2
+                  .col-lg-auto.mb-3.mb-lg-0.order-2
                     img(src="@/assets/curso/tema1/60.svg", style="max-width: 240px").mx-auto
                   .col-lg.order-1.mb-3.mb-lg-0
                     ul.lista-ul--color
@@ -830,7 +830,7 @@
 
             p Es fundamental que la densidad sea ajustada en función del clima, reduciéndola en condiciones de alta temperatura y humedad, para evitar el riesgo de asfixia, acumulación de calor y mortalidad. Esta práctica, junto con el diseño adecuado de jaulas y la ventilación cruzada eficiente, permite mantener el bienestar fisiológico y conductual de las aves durante el transporte.
     
-    h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Control térmico, ventilación y recomendaciones prácticas en el transporte de aves
+    h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Control térmico, ventilación y recomendaciones prácticas en el transporte de aves
 
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mt-5.mb-5
       .bloque-texto-g__img(
@@ -914,7 +914,7 @@
     
         .bg-color-3.tarjeta.p-4(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/71.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 En Colombia, el transporte de equinos está regulado por la Resolución ICA 136 de 2020, mientras que entidades como la WOAH (2023) y la Federación Ecuestre Internacional (FEI) aportan lineamientos complementarios.
@@ -958,7 +958,7 @@
     .bg-color-2.mb-5.tarjeta
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/72.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0  La Resolución ICA 136 de 2020 prohíbe el sobrecupo, exige divisiones internas y establece que los animales deben poder pararse cómodamente sin contacto forzado entre ellos.
@@ -1015,7 +1015,7 @@
       .col-lg-4.mb-3
         .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/80.svg", style="max-width: 90px").mx-auto
             .col-lg
               h4.mb-2 Sudoración excesiva
@@ -1024,7 +1024,7 @@
       .col-lg-4.mb-3
         .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/81.svg", style="max-width: 90px").mx-auto
             .col-lg
               h4.mb-2 Movimientos bruscos, patadas
@@ -1033,19 +1033,19 @@
       .col-lg-4.mb-3
         .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/82.svg", style="max-width: 90px").mx-auto
             .col-lg
               h4.mb-2 Relinchos, mordidas a estructuras
               p.mb-0 Indicadores de ansiedad o frustración.
     
     .bg-full-width.bg-color-4
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.justify-content-center.align-items-stretch.mb-5
           .col-lg-4.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/83.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-2 Intento de tumbarse
@@ -1054,7 +1054,7 @@
           .col-lg-4.mb-3
             .bg-color-3.tarjeta.p-4(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/84.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h4.mb-2 Aumento de frecuencia cardíaca
@@ -1064,11 +1064,11 @@
           .col-lg-4.mb-3
             img(src="@/assets/curso/tema1/85.svg").mx-auto
     
-        h3.mb-0.bg-color-7.p-3.tarjeta.d-inline.mb-5 Buenas prácticas y factores de estrés en el transporte de equinos
+        h3.mb-0.bg-color-7.p-3.tarjeta.d-lg-inline.mb-5 Buenas prácticas y factores de estrés en el transporte de equinos
 
         .bg-color-1.mb-5.mt-5.tarjeta(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/86.png', alt='')
             .col-lg
@@ -1082,7 +1082,7 @@
           .col-lg-10
             .bg-color-8.mb-3(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema1/87.png', alt='')
                 .col-lg
@@ -1134,7 +1134,7 @@
                 td Evitarlo siempre que sea posible, salvo en el caso de machos enteros.
 
     .bg-full-width.bg-color-11
-      .p-x4.px-md-5
+      .px-4.px-md-5
         .row.mb-5
           .col-lg-6.order-lg-2.mb-3.mb-lg-0
             figure
@@ -1144,7 +1144,7 @@
 
             .bg-color-2.tarjeta.mb-3(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema1/89.svg', alt='')
                 .col-lg
@@ -1166,7 +1166,7 @@
         
             .bg-color-3.tarjeta.p-4(data-aos="fade-left")
               .row.align-items-start
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/91.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 El manejo inadecuado puede provocar estrés severo, lesiones, pérdidas de peso, mortalidad y deterioro en la calidad del producto final (carne o leche). En Colombia, estos aspectos están regulados por la Resolución ICA 136 de 2020, complementada por las recomendaciones de la WOAH (2023).
@@ -1215,7 +1215,7 @@
     .bg-color-8.tarjeta.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/92.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 La Resolución ICA 136 de 2020 prohíbe sobrepasar estas densidades y exige el uso de vehículos con piso antideslizante, ventilación natural y divisiones internas para separar animales según edad, peso o condición fisiológica.
@@ -1332,7 +1332,7 @@
         .bg-color-1.tarjeta.p-4(data-aos="fade-left")
           .bg-color-white.tarjeta.p-5
             .row.align-items-center
-              .col-lg-auto.order-2
+              .col-lg-auto.mb-3.mb-lg-0.order-2
                 img(src="@/assets/curso/tema1/104.svg", style="max-width: 346px").mx-auto
               .col-lg.order-1.mb-3.mb-lg-0
                 ul.lista-ul--color.mb-0
