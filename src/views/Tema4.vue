@@ -365,10 +365,10 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1 Tabla 1. Obligaciones relacionadas con el transporte de animales en pie
-              p.text-small Se invita a leer el documento Tabla 1. Obligaciones relacionadas con el transporte de animales en pie, donde se abordan las responsabilidades específicas que deben cumplir los distintos actores involucrados en el transporte de animales vivos: empresas de transporte, propietarios de equipos, conductores y remitentes. 
+              h3.mb-1 Tabla 2. Obligaciones relacionadas con el transporte de animales en pie
+              p.text-small Se invita a leer el documento Tabla 2. Obligaciones relacionadas con el transporte de animales en pie, donde se abordan las responsabilidades específicas que deben cumplir los distintos actores involucrados en el transporte de animales vivos: empresas de transporte, propietarios de equipos, conductores y remitentes. 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

@@ -95,7 +95,7 @@
               h3.mb-1 Tabla 1. Espacio y densidad animal durante el transporte según especie y peso
               p.text-small Se invita a leer el documento Tabla 1. Espacio y densidad animal durante el transporte según especie y peso, donde se aborda la relación entre el peso de distintas especies animales y el espacio requerido para su transporte en función del tiempo del viaje (menor o mayor a 12 horas). 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
